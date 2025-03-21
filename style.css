@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Fabian';
+    src: url("assets/fonts/Fabian.ttf") format("truetype");
+}
+body {
+    background-color: #f3721b;
+    margin: 0;
+    font-family: 'Fabian';
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #d3651c;
+    z-index: 10;
+    padding: 10px 0;
+}
+
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: absolute;
+}
+
+.header_1 ul {
+    text-align: center;
+    list-style: none;
+    margin-left: 400px;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    z-index: 3;
+    font-family: 'Fabian';
+}
+
+ul li {
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin: 30px;
+    
+}
+
+
+img {
+    height: 60px;
+    margin: 10px;
+}
+
+.img_1,
+.img_2 {
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding: 0px;
+    height: 650px;
+    z-index: 2;
+}
+
+.img_2 {
+    right: 60px;
+}
+
+.heading {
+    font-family: 'scary', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    position: absolute;
+    left: 65px;
+    top: 300px;
+    color: #FFFFFF;
+    text-align: left;
+    display: block;
+    font-family: 'Fabian';
+}
+.parents {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    font-family: 'Fabian';
+}
+
+
+.box {
+    width: 10px;
+    height: 2000px;
+    background-color: #f3721b;
+}
